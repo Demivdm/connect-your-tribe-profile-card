@@ -2,7 +2,15 @@
 import express, { response } from 'express'
 
 // Maak een nieuwe express app aan
+
+// variabelen
 const app = express()
+
+const url = ('https://whois.fdnd.nl/api/v1/member/demi-van-der-maarl')
+
+const data = await fetch (url).then((response) => response.json())
+
+fetch(url)  .then((response) => response.json())  .then((data) => console.log(data));
 
 // Stel ejs in als template engine en geef de 'views' map door
 app.set('view engine', 'ejs')
@@ -11,11 +19,7 @@ app.set('views', './views')
 // Gebruik de map 'public' voor statische resources
 app.use(express.static('public'))
 
-const url = ('https://whois.fdnd.nl/api/v1/member/demi-van-der-maarl')
 
-const data = await fetch (url).then((response) => response.json())
-
-fetch(url)  .then((response) => response.json())  .then((data) => console.log(data));
 
 
 
