@@ -84,8 +84,10 @@ p{
   position: absolute;
   width: 20rem;
   top: 4rem;
-  transform: translate(10%) scale(0);
+ left: 2rem;
   border-radius: 20px;
+  display: none;
+  
   
 
 
@@ -103,11 +105,4 @@ span{
   position: absolute;
   left: 85%;
   cursor: pointer;
-}
-
-.active-popup.active{
-  
-  background-color: blue;
-  z-index:0;
-  
 }
