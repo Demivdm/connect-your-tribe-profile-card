@@ -86,16 +86,18 @@ p{
   top: 4rem;
  left: 2rem;
   border-radius: 20px;
-  display: none;
   
+  display: none;
   
 
 
 }
 
-span{
+.text-alignment{
   margin: 0 auto;
   text-align: center;
+  top: .5rem;
+  position: relative;
 }
 
 
