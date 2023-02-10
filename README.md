@@ -1,13 +1,12 @@
 
 # Connect your tribe visitekaartje
 
-
+![image](https://user-images.githubusercontent.com/112861166/218084287-f2bcbcac-240e-45ba-8ad4-4f685097e1b8.png)
 
 Dit project omvat een visitekaartje.
 
 ## Inhoudsopgave
 
-* [Opdrachtgever](https://github.com/Demivdm/connect-your-tribe-profile-card#opdrachtgever) 
 
 * [Beschrijving](https://github.com/Demivdm/connect-your-tribe-profile-card#beschrijving) 
 
