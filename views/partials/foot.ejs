@@ -1,14 +1,19 @@
   </body>
 
   <script>
-let popup = document.getElementById("popup-1")
-let closepopup = document.getElementById("close")
+
+    // met query selector kan je tussen de aanhalingstekens een class aanroepen
+
+let popup = document.querySelector(".popup")
+let closepopup = document.querySelector(".closeButton")
 
     function openPopup() {
+      // popup is standaard op gestyld op none. Deze functie veranderd de display van none naar block
         popup.style.display = "block";
       }
       function closePopup() {
-        closepopup.getElementById("popup-1").style.display = "none";
+        // de variabele popup wordt aangeroepen en de display wordt teruggezet naar none.
+        popup.style.display = "none";
       }
   </script>
 

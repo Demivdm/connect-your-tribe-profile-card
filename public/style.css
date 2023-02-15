@@ -86,12 +86,13 @@ p{
   top: 4rem;
  left: 2rem;
   border-radius: 20px;
-  
+  height: 20rem;
   display: none;
   
 
 
 }
+
 
 .text-alignment{
   margin: 0 auto;
@@ -104,7 +105,8 @@ p{
 .closeButton{
   font-size: 50px;
   margin: 0 auto;
-  position: absolute;
-  left: 85%;
+  position: relative;
+  z-index: 1;
   cursor: pointer;
+  left: 40%;
 }
