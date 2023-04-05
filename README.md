@@ -1,7 +1,7 @@
 
 # Connect your tribe visitekaartje
 
-![image](https://user-images.githubusercontent.com/112861166/218084287-f2bcbcac-240e-45ba-8ad4-4f685097e1b8.png)
+![profile card mock up1](https://user-images.githubusercontent.com/112861166/230123958-ab564592-4679-4248-b8c6-1b29ace9ca7a.jpg)
 
 Dit project omvat een visitekaartje.
 
